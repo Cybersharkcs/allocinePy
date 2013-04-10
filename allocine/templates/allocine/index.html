@@ -1,0 +1,15 @@
+{% if infosfilms %}
+	<ul>
+	{% for info in infosfilms %}
+		<li> {{ info }} </li>
+	{% endfor %}
+	</ul>
+{% endif %}
+
+{% if infosDateSortie %}
+	<ul>
+	{% for info in infosDateSortie %}
+		<li> {{ info }} </li>
+	{% endfor %}
+	</ul>
+{% endif %}
